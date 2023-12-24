@@ -1,6 +1,3 @@
-/*
-Copyright © 2023 Henry Grant <hgrant94@gmail.com>
-*/
 package cmd
 
 import (
@@ -11,7 +8,7 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "henry-go-cli",
+	Use:   "go-cli-example",
 	Short: "A CLI written in Go",
 	Long:  `A project that was created to help me learn Go. `,
 	// Uncomment the following line if your bare application

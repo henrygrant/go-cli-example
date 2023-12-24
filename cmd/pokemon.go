@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"henry-go-cli/structs"
 	"io"
 	"log"
 	"net/http"
@@ -14,6 +13,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/henrygrant/go-cli-example/structs"
 	"github.com/spf13/cobra"
 )
 
